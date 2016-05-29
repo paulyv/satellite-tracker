@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+  max-width: 1000px;
+
+  font-family: 'Titillium Web','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+.wrapper {
+	width: 1000px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.top{
+	margin: 0 auto;
+	background-image: url('/images/iss-banner.jpg');
+	width: 1000px;
+}
+
+.stats {
+  line-height: 85%;
+}
+
+#map {
+	margin: 0 auto;
+	height: 500px;
+	width: 1000px;
+}
