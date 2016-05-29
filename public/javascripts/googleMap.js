@@ -28,7 +28,7 @@ function getData() {
 
 function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
+          /*center: {lat: -34.397, lng: 150.644},*/
           zoom: 2,
           mapTypeId: google.maps.MapTypeId.HYBRID
         });
@@ -38,7 +38,7 @@ function initMap() {
     var icon = '/images/satellite-icon-gold.png';
 
     marker = new google.maps.Marker({
-    position: {lat: -34.397, lng: 150.644},
+    /*position: {lat: -34.397, lng: 150.644},*/
     map: map,
     title: 'International Space Station',
     icon: icon,
