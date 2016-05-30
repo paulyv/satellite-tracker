@@ -3,7 +3,7 @@ body {
   
   padding: 0px;
   margin: 0px; 
-  max-width: 1366px;
+  max-width: 1213px;
 
   font-family: 'Titillium Web','Helvetica Neue',Helvetica,Arial,sans-serif;
   font-weight: 200;
@@ -13,6 +13,7 @@ body {
 
 h1 {
   font-weight: 400;
+  padding-bottom: 50px;
 }
 
 .top{
@@ -20,7 +21,7 @@ h1 {
   float: none;
   padding-bottom: 15px;
 	background-image: url('/images/iss-banner.jpg');
-	max-width: 1366px;
+	max-width: 1213px;
 }
 
 .stats {
@@ -32,5 +33,5 @@ h1 {
 	margin: 0 auto !important;
   margin-top: 5px !important;
 	height: 500px;
-	max-width: 1366px;
+	max-width: 1213px;
 }
