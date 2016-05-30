@@ -21,7 +21,7 @@ router.get('/', function(req, res, next) {
 		  sat = JSON.parse(body);	
 		}
 
-	res.render('iss', { data: sat});
+	res.render('index', { data: sat});
     });
 });
 
