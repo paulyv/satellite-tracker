@@ -1,3 +1,4 @@
+
 body {
   background-color: black;
   
@@ -13,7 +14,12 @@ body {
 
 h1 {
   font-weight: 400;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
+}
+
+.centered {
+  float: none;
+  margin: 0 auto;
 }
 
 .top{
@@ -26,6 +32,7 @@ h1 {
 
 .stats {
   line-height: 85%;
+  font-size: 115%;
 }
 
 #map {
