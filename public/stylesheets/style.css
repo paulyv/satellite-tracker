@@ -16,7 +16,8 @@ h1 {
 }
 
 .top{
-	margin: 0 auto;
+	margin: 0 auto !important;
+  float: none;
   padding-bottom: 15px;
 	background-image: url('/images/iss-banner.jpg');
 	max-width: 1366px;
@@ -27,8 +28,9 @@ h1 {
 }
 
 #map {
-	margin: 0 auto;
-  margin-top: 5px;
+  float: none;
+	margin: 0 auto !important;
+  margin-top: 5px !important;
 	height: 500px;
 	max-width: 1366px;
 }
