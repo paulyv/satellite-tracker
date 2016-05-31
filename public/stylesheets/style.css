@@ -1,11 +1,10 @@
 
 body {
   background-color: black;
-  
   padding: 0px;
   margin: 0px; 
-  max-width: 1213px;
-
+  height: 100%;
+  width: 100%;
   font-family: 'Titillium Web','Helvetica Neue',Helvetica,Arial,sans-serif;
   font-weight: 200;
   color: white;
@@ -15,6 +14,10 @@ body {
 h1 {
   font-weight: 400;
   padding-bottom: 35px;
+}
+
+.wrapper {
+  width: 100%;
 }
 
 .centered {

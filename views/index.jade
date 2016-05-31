@@ -1,17 +1,16 @@
 extends layout
 
 block content
-
- div.container.col-lg-12.col-md-12.col-sm-12.col-xs-12
-  div.container-fluid.centered
-    div.top.col-lg-12.col-md-12.col-sm-12.col-xs-12
-      h1= 'International Space Station'
-      div.stats
-        p#lat Latitude: #{data.latitude}
-        p#lon Longitude: #{data.longitude}
-        p#alt Altitude: #{data.altitude}
-        p#vel Velocity: #{data.velocity}
-    div#map.col-lg-12.col-md-12.col-sm-12.col-xs-12
+  div.container
+    div.container-fluid
+      div.top.col-lg-12.col-md-12.col-sm-12.col-xs-12
+        h1= 'International Space Station'
+        div.stats
+          p#lat Latitude: #{data.latitude}
+          p#lon Longitude: #{data.longitude}
+          p#alt Altitude: #{data.altitude}
+          p#vel Velocity: #{data.velocity}
+      div#map.col-lg-12.col-md-12.col-sm-12.col-xs-12
   
 
   script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js')
