@@ -1,14 +1,42 @@
 extends layout
 
 block content
+  <!-- Wrapper -->
   div.container-fluid
+
+    <!-- Nav -->
+    nav#mainNav.navbar.navbar-inverse.navbar-fixed-top.affix-top
+      div.container-fluid
+        div.navbar-header
+          button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#myNav")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.page-scroll(href="#page-top") International Space Station
+        div#myNav.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.page-scroll(href="#map") Map
+            li
+              a.page-scroll(href="#video") Live Video
+            li
+              a.page-scroll(href="#about") About
+            li
+              a.page-scroll(href="#contact") Contact
+    
+    <!-- Top -->
     div.top.col-lg-12.col-md-12.col-sm-12.col-xs-12
-      h1= 'International Space Station'
+      <!-- h1= 'International Space Station' -->
+      
+      <!-- Stats -->
       div.stats
         p#lat Latitude: #{data.latitude}
         p#lon Longitude: #{data.longitude}
         p#alt Altitude: #{data.altitude}
         p#vel Velocity: #{data.velocity}
+
+    <!-- Map -->
     div#map.col-lg-12.col-md-12.col-sm-12.col-xs-12
   
 

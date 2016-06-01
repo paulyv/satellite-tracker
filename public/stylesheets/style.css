@@ -5,9 +5,18 @@ body {
   margin: 0px; 
   height: 100%;
   width: 100%;
-  font-family: 'Titillium Web','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Titillium Web','Helvetica Neue',Helvetica,Arial,sans-serif !important;
   font-weight: 200;
   color: white;
+}
+
+#mainNav a {
+  color: white !important;
+  background-color: black;
+}
+
+.navbar-inverse {
+  background-color: black !important;
 }
 
 
@@ -18,9 +27,11 @@ h1 {
 
 
 .top{
-	margin: 0 auto !important;
+
   float: none;
-  padding-bottom: 15px;
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 30px;
 	background-image: url('/images/iss-banner.jpg');
 	max-width: 1213px;
 }
