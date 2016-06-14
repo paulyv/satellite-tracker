@@ -49,7 +49,8 @@ h1 {
 	max-width: 1213px;
 }
 #video {
-  position: absolute;
+  /*position: absolute; */
   height: 500px;
-  max-width: 1213px;
+  max-height: 500px;
+  max-width: 1140px;
 }
