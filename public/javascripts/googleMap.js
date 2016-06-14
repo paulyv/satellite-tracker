@@ -51,8 +51,7 @@ function initMap() {
             draggable : false,
             zoom : 3,
             mapTypeId : google.maps.MapTypeId.TERRAIN,
-            disableDefaultUI: true,
-            styles: mapStyle
+            disableDefaultUI: true
             };
 
   map = new google.maps.Map(document.getElementById('map'), myOptions);
