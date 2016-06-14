@@ -14,7 +14,7 @@ block content
             span.icon-bar
             span.icon-bar
           a.navbar-brand.page-scroll(href="#page-top") International Space Station
-        div#myNav.collapse.navbar-collapse
+        div#myNav.collapse.navbar-collapse(name="map")
           ul.nav.navbar-nav.navbar-right
             li
               a.page-scroll(href="#map") Map
@@ -35,6 +35,7 @@ block content
         p#lon Longitude: #{data.longitude}
         p#alt Altitude: #{data.altitude}
         p#vel Velocity: #{data.velocity}
+        p#vis Visibility: #{data.visibility}
 
     <!-- Map -->
     div#map.col-lg-12.col-md-12.col-sm-12.col-xs-12
