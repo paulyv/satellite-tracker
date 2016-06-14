@@ -50,7 +50,7 @@ function initMap() {
   var myOptions = {
             draggable : false,
             zoom : 3,
-            mapTypeId : google.maps.MapTypeId.TERRAIN,
+            mapTypeId : google.maps.MapTypeId.HYBRID,
             disableDefaultUI: true
             };
 
